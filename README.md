@@ -17,8 +17,8 @@ Steps are to be completed within the main element in your `index.html` file.
 2. Create one **table row** element and nest it inside of your newly created **table** element
 3. Create six **table heading** elements and nest them inside of you newly created **table row** element
 4. You should have a **table heading** element for each of the following _displayed_ columns:
-   - total servings
-   - serving size
+    - total servings
+ ƒ  - serving size
    - calories per serving
    - carbs per serving
    - sugars per serving
