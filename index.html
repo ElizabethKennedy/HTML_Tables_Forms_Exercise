@@ -1,114 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables and Forms</title>
+  </head>
+  <body>
+    <main>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Total servings</th>
+          <th>Serving size</th>
+          <th>Calories per serving</th>
+          <th>Carbohydrates per serving</th>
+          <th>Sugars per serving</th>
+          <th>Sodium per serving</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Coca Cola</td>
+          <td>1</td>
+          <td>12 oz</td>
+          <td>140 kcal</td>
+          <td>39g</td>
+          <td>39g</td>
+          <td>45mg</td>
+        </tr>
+        <tr>
+          <td>Pepsi</td>
+          <td>1</td>
+          <td>12oz</td>
+          <td>150 kcal</td>
+          <td>41g</td>
+          <td>41g</td>
+          <td>30mg</td>
+        </tr>
+        <tr>
+          <td>Coca Cola Zero</td>
+          <td>1</td>
+          <td>12 oz</td>
+          <td>0 kcal</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>40mg</td>
+        </tr>
+        <tr>
+          <td>Dr. Pepper</td>
+          <td>1</td>
+          <td>12 oz</td>
+          <td>150 kcal</td>
+          <td>40g</td>
+          <td>40g</td>
+          <td>55mg</td>
+        </tr>
+        <tr>
+          <td>Mountain Dew</td>
+          <td>1</td>
+          <td>12oz</td>
+          <td>170 kcal</td>
+          <td>46g</td>
+          <td>46g</td>
+          <td>60mg</td>
+        </tr>
+      </table>
+      <form>
+        <div class="form-group"
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" id="name" required />
+        </div>
+        <div class="form-group"
+          <label for="Total Servings">Servings:</label>
+          <input type="number" name="Servings" id="servings" required />
+        </div>
+        <div class="form-group"
+          <label for="Serving Size">Serving Size:</label>
+          <input type="number" name="Serving Size" id="serving size" required />
+        </div>
+        <div class="form-group"
+          <label for="Calories Per Serving">Calories per Serving:</label>
+          <input type="number" name="calories" id="calories" required />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HTML Tables and Forms</title>
-</head>
+        <div class="form-group"
+          <label for="Carbohydrates Per Serving">Carbohydrates per Serving:</label>
+          <input type="number" name="carbs" id="carbs" required />
+        
+        <div class="form-group"
+          <label for="Sugars Per Serving">Sugars per Serving:</label>
+          <input type="number" name="sugars" id="sugars" required />
+        
+        <div class="form-group"
+          <label for="Sodium Per Serving">Sodium per Serving:</label>
+          <input type="number" name="Sodium" id="sodium" required />
 
-<body>
-  <!--TO DO -->
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Total Servings</th>
-        <th>Calories</th>
-        <th>Carbs</th>
-        <th>Sugars</th>
-        <th>Sodium</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Coca Cola</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>Pepsi</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>Coca Cola Zero</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>Dr. Pepper</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>Mountain Dew</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-
-</html>
-
-<!--Form-->
-<form>
-     <div class="form-group">
-       <label for="name">Name:</label>
-       <input type="text" name="name" id="name" required />
-     </div>
-
-     <div class="form-group">
-       <label for="servings">Servings:</label>
-       <input type="number" name="servings" id="servings"
-       required min="1" />
-     </div>
-
-     <div class="form-group">
-       <label for="servingSize">Serving Size</label>
-       <input type="number" name="servingSize"
-       id="servingSize" />
-     </div>
-
-     <div class="form-group">
-       <label for="calories">Calories</label>
-       <input type="number" name="calories" id="calories" />
-     </div>
-
-     <div class="form-group">
-       <label for="carbs">Carbs</label>
-       <input type="number" name="carbs" id="carbs" />
-     </div>
-
-     <div class="form-group">
-       <label for="sugars">Sugars</label>
-       <input type="number" name="sugars" id="sugars" />
-     </div>
-
-     <div class="form-group">
-       <label for="sodium">Sodium</label>
-       <input type="number" name="sodium" id="sodium" />
-     </div>
-
-     <div class="form-group">
-       <button>Test</button>
-     </div>
-   </form>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
- </html>
+</html>
